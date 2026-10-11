@@ -1,0 +1,199 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+nav {
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+
+    padding-right: 30px;
+}
+
+.nav-logo {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    width: 30px;
+    height: auto;
+}
+
+nav a {
+    display: inline-block;
+    width:8%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 8px 0;
+    background-color: rgb(75, 75, 75);
+    vertical-align: top;
+
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 1.5px;
+}
+
+nav a:nth-child(1) {
+    text-decoration-color: red;
+}
+
+nav a:nth-child(2) {
+    text-decoration-color: orange;
+}
+
+nav a:nth-child(3) {
+    text-decoration-color: yellow;
+}
+
+nav a:nth-child(4) {
+    text-decoration-color: green;
+}
+
+nav a:nth-child(5) {
+    text-decoration-color: blue;
+}
+
+nav a:nth-child(6) {
+    text-decoration-color: purple;
+}
+
+nav a:nth-child(7) {
+    text-decoration-color: pink;
+}
+
+nav a:nth-child(8) {
+    text-decoration-color: brown;
+}
+
+nav a:nth-child(9) {
+    text-decoration-color: cyan;
+}
+
+nav a:nth-child(10) {
+    text-decoration-color: lime;
+}
+
+nav a:nth-child(11) {
+    text-decoration-color: magenta;
+}
+
+nav a:nth-child(12) {
+    text-decoration-color: teal;
+}
+
+
+header {
+    position: relative;
+    height: 70px;
+    border-bottom: 1px solid rgb(80, 80, 80);
+} 
+
+header h1 {
+    position: absolute;
+    top: 24px;
+    right: 36px;
+    background-color: red;
+    color: white;
+    padding: 0 4px;
+    border-bottom: 7px solid #3a3a56;
+}
+
+header a {
+    position: absolute;
+    left: 22px;
+    top: 50px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.triangle {
+    position: absolute;
+    left: 5.5px;
+    top: 54px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 8px solid red;
+}
+
+.logo {
+    position: absolute;
+    width: 26px;
+    height: auto;
+    top: 41px;
+    right: 7px;
+}
+
+.card {
+    display: inline-block;
+    padding: 8px;
+    width: 15.5%;
+    vertical-align: top;
+    border-left: 1px solid grey;
+
+}
+
+.time {
+    display: inline-block;
+    background-color: red;
+    color:white;
+    padding: 2px 6px;
+}
+
+.breaking-news {
+    padding: 10px;
+    border-top: 1px solid rgb(158, 157, 157);
+    border-bottom: 2px solid rgb(49, 49, 49);
+    background-color:rgb(221, 220, 220);
+
+}
+
+article {
+    position: relative;
+    height: 340px;
+}
+
+.photo-news {
+    position: absolute;
+    top: 30px;
+    left: 2px;
+    width: auto;
+    height: 100%;
+
+    
+}
+
+.article-text {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+
+}
+
+.label {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
+
+.article-text h1 {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.description {
+    line-height: 1.5;
+    font-size: 25px;
+}
+.author {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
